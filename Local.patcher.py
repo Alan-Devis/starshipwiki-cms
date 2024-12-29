@@ -47,5 +47,6 @@ except sqlite3.Error as e:
     input('Нажмите ENTER чтобы продолжить   .   .   .')
 
 finally:
+
     if 'conn' in locals() and conn:
         conn.close()
