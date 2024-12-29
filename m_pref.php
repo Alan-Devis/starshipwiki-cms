@@ -15,9 +15,9 @@ $Author = '';
     and we do not recommend filling them in manually, although it is not prohibited.
 */
 
-// Token here
+// Token here!
 
-// Token higher
+// Token higher!
 
 $infoVersionNum = '0.0.1';
 $infoVarsionCodename = 'Red Christmas Tree';
