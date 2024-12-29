@@ -1,0 +1,33 @@
+<?php
+include '../../m_pref.php'
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информация о Вашей вики</title>
+</head>
+<body>
+    <form action="save_variables.php" method="POST">
+        <h1>Пожалуйста, заполните информацию о Вашей вики.</h1>
+        <label for="wikiname">Wikiname:</label>
+        <input type="text" id="wikiname" name="wikiname" required>
+        <br>
+        <label for="tagline">Tagline:</label>
+        <input type="text" id="tagline" name="tagline" required>
+        <br>
+        <label for="category">Category:</label>
+        <input type="text" id="category" name="category" required>
+        <br>
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author" required>
+        <br>
+        <label for="wikinametitle">Wikiname Title:</label>
+        <input type="text" id="wikinametitle" name="wikinametitle" required>
+        <br><br>
+        <button type="submit">Сохранить переменные</button>
+    </form>
+</body>
+</html>
+

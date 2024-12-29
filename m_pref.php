@@ -6,11 +6,11 @@ include 'main/Extensions/ext_Parsedown.php';
 // CONNECT EXTENSIONS HERE!!! ↑
 
 // About-Information
-const wikiname = ''; 
-const Tagline = '';
-const Category = '';
-const Author = '';
-const wikinametitle = '';
+$wikiname = ''; 
+$tagline = '';
+$category = '';
+$author = '';
+$wikinametitle = '';
 /*  
     Attention! These variables are automatically filled in during initial setup,
     and we do not recommend filling them in manually, although it is not prohibited.
