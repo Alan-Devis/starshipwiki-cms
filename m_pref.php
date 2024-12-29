@@ -1,15 +1,16 @@
 <?php
 // CONNECT EXTENSIONS HERE!!! ↓
-// Например:
-// include 'Extensions/name_of_extension.php';
-include 'Extensions/ext_Parsedown.php';
+// For example:
+// include 'main/Extensions/name_of_extension.php';
+include 'main/Extensions/ext_Parsedown.php';
 // CONNECT EXTENSIONS HERE!!! ↑
 
 // About-Information
-$wikiname = '';
-$Tagline = '';
-$Category = '';
-$Author = '';
+const wikiname = ''; 
+const Tagline = '';
+const Category = '';
+const Author = '';
+const wikinametitle = '';
 /*  
     Attention! These variables are automatically filled in during initial setup,
     and we do not recommend filling them in manually, although it is not prohibited.
@@ -19,8 +20,8 @@ $Author = '';
 
 // Token higher!
 
-$infoVersionNum = '0.0.1';
-$infoVarsionCodename = 'Red Christmas Tree';
+const infoVersionNum = '0.0.1';
+const infoVersionCodename = 'Red Christmas Tree';
 
 // Master-User-Account (MUA)
 $userMUA_Login = 'MUA_Root';
